@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500"
+	height="200" class="svg-anim">
+	<defs>
+		<radialGradient xlink:href="#a" id="b" cx="128" cy="43.5" r="244.02" fx="128" fy="43.5"
+			gradientTransform="matrix(1.02449 0 0 .4098 118.87 82.17)"
+			gradientUnits="userSpaceOnUse" />
+		<linearGradient id="a">
+			<stop offset="0" style="stop-color:#000a2c;stop-opacity:1" />
+			<stop offset="1" style="stop-color:#292961;stop-opacity:0" />
+		</linearGradient>
+	</defs>
+	<ellipse cx="250" cy="100" rx="250" ry="100"
+		style="opacity:.420455;fill:url(#b);stroke:none;stroke-width:24.489;stroke-linecap:round;stroke-linejoin:round;paint-order:fill markers stroke" />
+	<path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+		stroke-width="9.4"
+		d="M373.3 98.45c-8.98 12.27-24.89 4.03-27.07 4-10.52-2.5-16.29 2.49-19.42 8.1a32.82 32.82 0 0 0-3.63 11.86c-.02 9.6 6.87 15.46 14.4 16.25 16.44 1.75 23.53-23.46 13.8-33.27-2.5-2.53-5.15-2.95-5.15-2.95-8.52-1.5-14.03 1.5-17.41 4.87-3.39 3.37-4.64 7.11-4.64 7.11-9.88 38.03-48.27 33.55-37.5-27.87 8.07-37.65 23.78-25.77 23.29-12.42-2.19 33.92-29.02 72.55-51.08 63.25-4.77-2.77-10.38-9.25-11.54-17.31-1.17-8.07-2-18.17.58-33.4 8.07-37.74 23.78-25.87 23.24-12.9-.73 32.36-30.84 64.9-48.22 65.03-22.05 0-20.06-21.38-20.06-21.38 3.08-33.74 33.96-19.27 16.03 3.99-9.02 11.98-26.03 16.25-26.03 16.25-11.02 4-14.03-4-14.03-4-3.34-6.64 8.16-23.25-1.54-32.22-3.81-3.52-18.29-6.86-25.33 23.43-1.77 7.59-2.28 13.94-2.28 13.94l7.06-55.4c3.84-34.95 28.2-23.82 16.44.7-3.1 6.5-8.35 13.46-14.14 20.13a181.1 181.1 0 0 1-18.05 17.97c-5.82 5-11.02 8.71-14.32 10.18"
+		style="stroke:#b7bbc9;stroke-opacity:1" />
+</svg>
