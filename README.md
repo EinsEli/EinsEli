@@ -30,7 +30,7 @@
 <h2 align="center">My GitHub Stats</h2>
 <p align="center">
 	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=einseli&show_icons=true&theme=dark&count_private=true&include_all_commits=true">
-		<img src="https://github-readme-stats.vercel.app/api?username=einseli&show_icons=true&theme=light&count_private=true&include_all_commits=true">
+		<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=einseli&show_icons=true&theme=dark&count_private=true">
+		<img src="https://github-readme-stats.vercel.app/api?username=einseli&show_icons=true&theme=light&count_private=true">
 	</picture>
 </p>
