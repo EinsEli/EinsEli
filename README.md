@@ -1,8 +1,8 @@
 <div align="center">
 	<a href="https://einseli.me">
 		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="/assets/hello_dark.svg">
-			<img src="/assets/hello_light.svg">
+			<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EinsEli/EinsEli/main/assets/hello_dark.svg">
+			<img src="https://raw.githubusercontent.com/EinsEli/EinsEli/main/assets/hello_light.svg">
 		</picture>
 	</a>
 	<h3>👋 I'm Elias.</h3>
