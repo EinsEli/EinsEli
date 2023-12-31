@@ -1,0 +1,216 @@
+/*
+* Main CSS
+*/
+
+/* Include other CSS files */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+
+/* Main Styles */
+html {
+	background: #1d1d1f;
+}
+
+* {
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*
+* Background
+*/
+
+#background-container {
+	/* Center */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* Center Contents */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 32px;
+	/* Overlay */
+	z-index: 10;
+	/* Styling */
+	background: radial-gradient(circle, var(--glow-color) 0%, rgba(0,0,0,1) 85%);;
+	/* Animation */
+	--glow-color: black;
+	animation: background 4s ease-out forwards;
+}
+
+@property --glow-color {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: black;
+}
+
+@keyframes background {
+	0% {
+		--glow-color: black;
+	}
+	100% {
+		--glow-color: rgba(0, 10, 44, 0.5);
+	}
+}
+
+
+
+/* 
+* Hello
+*/
+
+#hello-svg {
+	animation-delay: 450ms;
+	animation: hello 5s cubic-bezier(0.32, 0, 0.67, 1) forwards;
+	stroke-dasharray: 1054;
+	stroke: #b7bbc9;
+	z-index: 10;
+	/* Webkit */
+	-webkit-animation-delay: 450ms;
+	-webkit-animation: hello 5s cubic-bezier(0.32, 0, 0.67, 1) forwards;
+	-webkit-stroke-dasharray: 1054;
+	-webkit-stroke: #b7bbc9;
+}
+
+@keyframes hello {
+	0% {
+		stroke-dashoffset: 1054;
+		-webkit-stroke-dashoffset: 1054;
+	}
+	50% {
+		stroke-dashoffset: 0;
+		-webkit-stroke-dashoffset: 0;
+	}
+}
+
+
+
+/* 
+* Text
+*/
+
+.text-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 4px;
+}
+
+h1 {
+	/* Text Styling */
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #71737c;
+	z-index: 10;
+	text-align: center;
+	/* Animation */
+	animation-delay: 350ms;
+	animation: hello 5s cubic-bezier(0.32, 0, 0.67, 1) forwards;
+	/* Webkit */
+	-webkit-animation-delay: 350ms;
+	-webkit-animation: coming-soon 5s cubic-bezier(0.32, 0, 0.67, 1) forwards;
+	/* Disable Text Highlighting */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	/* Box Model */
+	margin: 0;
+}
+
+h2 {
+	/* Text Styling */
+	font-size: 1rem;
+	font-weight: 400;
+	color: #5a5c63;
+	z-index: 10;
+	text-align: center;
+	/* Animation */
+	animation-delay: 350ms;
+	animation: hello 5s cubic-bezier(0.32, 0, 0.67, 1) forwards;
+	/* Webkit */
+	-webkit-animation-delay: 350ms;
+	-webkit-animation: coming-soon 5s cubic-bezier(0.32, 0, 0.67, 1) forwards;
+	/* Disable Text Highlighting */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	/* Box Model */
+	margin: 0;
+
+}
+
+
+@keyframes coming-soon {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+/*
+* Pattern
+*/
+
+#pattern {
+	/* Center */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	/* Pattern */
+	background-image: url("/assets/img/pattern.svg");
+}
+
+
+
+/*
+* GitHub Logo
+*/
+
+#github-logo {
+	/* Center to bottom right */
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+	z-index: 1000;
+	/* Styling */
+	opacity: 0;
+	filter: blur(16px);
+	/* Disable Selecting */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	/* Animation */
+	animation: github-logo 5s ease-out forwards;
+}
+
+@keyframes github-logo {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		filter: blur(0px);
+	}
+}
