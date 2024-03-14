@@ -21,7 +21,7 @@
 
 <h2 align="center">My skills and interests</h2>
 <pre>
-🌱 I'm currently learning <a href="https://vuejs.org/">Vue.js</a>
+🌱 I'm currently learning <a href="https://vuejs.org/">Next.JS</a>
 </pre>
 <pre>
 🧠 My interests are Linux, Web Development and Open Source Projects
