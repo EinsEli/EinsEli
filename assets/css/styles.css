@@ -199,7 +199,12 @@ h2 {
 	-ms-user-select: none;
 	user-select: none;
 	/* Animation */
+	transition: all 1s ease-in-out;
 	animation: github-logo 5s ease-out forwards;
+}
+
+#github-logo:hover {
+	filter: brigtness(1.5);
 }
 
 @keyframes github-logo {
