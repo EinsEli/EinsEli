@@ -12,7 +12,7 @@
 
 <h2 align="center">About me</h2>
 <pre>
-📚 I'm currently studying Computer Science at <a href="https://www.karlsruhe.dhbw.de">DHBW Karlsruhe</a> and <a href="https://dmtech.de">dmTECH</a>
+📚 I'm currently studying Computer Science at <a target="_blank" href="https://www.karlsruhe.dhbw.de">DHBW Karlsruhe</a> and <a target="_blank" href="https://dmtech.de">dmTECH GmbH</a>
 </pre>
 <pre>
 📫 How to reach me: <a href="mailto:hello@einseli.me">hello@einseli.me</a>
@@ -21,7 +21,7 @@
 
 <h2 align="center">My skills and interests</h2>
 <pre>
-🌱 I'm currently working with <a href="https://nextjs.org/">Next.js</a>
+🌱 I'm like working with <a target="_blank" href="https://nextjs.org/">Next.js</a> and <a target="_blank" href="https://typescriptlang.org">TypeScript</a>
 </pre>
 <pre>
 🧠 My interests are Linux, Web Development and Open Source Projects
